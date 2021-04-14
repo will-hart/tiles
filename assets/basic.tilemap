@@ -1,0 +1,17 @@
+(
+  width:24,
+  height:12,
+  sprites:[
+    (path:"floor.png",cost:1),
+    (path:"wall.png",cost:127)
+  ],
+  tiles:{
+    (5,5):1,
+    (9,9):1
+  },
+  default_tile:0,
+  nav_points:[
+    (id:0,x:1,y:1,edges:[]),
+    (id:1,x:5,y:5,edges:[0])
+  ]
+)
